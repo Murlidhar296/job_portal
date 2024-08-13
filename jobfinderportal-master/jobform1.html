@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fbnaukri.com Apply For Job</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/price_rangs.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./assets/css/jobform.css">
+</head>
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/naukri_logo.png" alt="Preloader logo" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+    
+    <header>
+        <!-- Header Start -->
+            <div class="header-area header-transparrent">
+            <div class="headder-top header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-2">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="index.html" class="text-dark">
+                                    <img src="./assets/img/naukri_logo.png" alt="Our Company Logo image" class="w-100"></a>
+                            </div>  
+                        </div>
+                        <div class="col-lg-9 col-md-9">
+                            <div class="menu-wrapper">
+                                <!-- Main-menu -->
+                                <div class="main-menu pt-3">
+                                    <nav class="d-none d-lg-block">
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="job_listing.html">Find a Jobs </a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="#">Page</a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="single-blog.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Elements</a></li>
+                                                    <li><a href="job_details.html">job Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>          
+                                <!-- Header-btn -->
+                                <div class="header-btn d-none f-right d-lg-block pt-2">
+                                    <a href="#" class="btn head-btn1">Register</a>
+                                    <a href="#" class="btn head-btn2">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            </div>
+        <!-- Header End -->
+    </header>
+
+    <section class="job-form">
+        <div class="container">
+            <div class="form-title">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form__title">
+                            <h2 class="text-center">Job Registration Form</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="your_action_page.php" method="post" enctype="multipart/form-data">   
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="f_name" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="f_name" name="f_name" placeholder="Enter your first name">
+                        <div id="msg1"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="l_name" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="l_name" name="l_name" placeholder="Enter your last name">
+                        <div id="msg2"></div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+                        <div id="msg3"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" autocomplete="current-password">
+                        <div id="msg4"></div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <label for="contact" class="form-label">Contact No.</label>
+                        <input type="tel" class="form-control" id="contact" name="contact" placeholder="Enter your contact number">
+                        <div id="msg5"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" name="address" placeholder="Enter your address">
+                        <div id="msg6"></div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <label for="dob" class="form-label">DOB</label>
+                        <input type="date" class="form-control" id="dob" name="dob">
+                        <div id="msg7"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="radios">
+                            <label for="gender" class="form-label">Gender:</label>
+                            <input type="radio" id="male" name="gender" value="male"><span class="px-1">Male</span>
+                            <input type="radio" id="female" name="gender" value="female"><span class="px-1">Female</span>
+                            <input type="radio" id="other" name="gender" value="other"><span class="px-1">Other</span>
+                        </div>
+                        <div id="msg8"></div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <label for="cities" class="form-label">City</label>
+                        <select class="form-select form-select-lg" id="cities" name="cities">
+                            <option value="">Select City</option>
+                            <option value="One">One</option>
+                            <option value="Two">Two</option>
+                            <option value="Three">Three</option>
+                        </select>
+                        <div id="msg9"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="experience" class="form-label">Current Experience</label>
+                        <select class="form-select" id="experience" name="experience">
+                            <option value="">Select year</option>
+                            <option value="Less than 1 year">Less than 1 year</option>
+                            <option value="1 Year">1 Year</option>
+                            <option value="2 Year">2 Year</option>
+                            <option value="3 Year">3 Year</option>
+                            <option value="4 Year">4 Year</option>
+                            <option value="5 Year">5 Year</option>
+                            <option value="More than 5 years">More than 5 years</option>
+                        </select>
+                        <div id="msg10"></div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <label for="upload" class="form-label">Upload Your Photo</label>
+                        <input type="file" class="form-control" id="upload" name="upload">
+                        <div id="msg11"></div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="additional">Additional information</label>
+                    <textarea class="form-control" id="additional" name="additional" rows="4" placeholder="Add any additional information here..."></textarea>
+                </div>
+                <div class="form-check mt-3">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">Agree to terms and conditions</label>
+                </div>
+                <div class="col-12 col-lg-3 mt-3 mb-3">
+                    <button class="btn btn-primary w-100" type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrappper footer-bg">
+            <!-- Footer Start -->
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo mb-25">
+                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="footer_logo"></a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p>Subscribe now to get daily updates</p>
+                                        </div>
+                                    </div>
+                                    <!-- Form -->
+                                    <div class="footer-form" id="mc_embed_signup">
+                                        <form target="_blank" action="https://somedomain.com" method="get">
+                                            <input type="email" name="EMAIL" id="newsletter-form-email" placeholder="Email Address" class="placeholder hide-on-focus">
+                                            <div class="form-icon">
+                                                <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
+                                                    <img src="assets/img/icon/form.png" alt="">
+                                                </button>
+                                            </div>
+                                            <div class="mt-10 info"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Company</h4>
+                                    <ul>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Contacts</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Resources</h4>
+                                    <ul>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Newsletter</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms of Service</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Quick Links</h4>
+                                    <ul>
+                                        <li><a href="#">Jobs Listing</a></li>
+                                        <li><a href="#">Job Details</a></li>
+                                        <li><a href="#">Resume</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-bottom area -->
+            <div class="footer-bottom-area footer-bg">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-xl-12 ">
+                                <div class="footer-copy-right text-center">
+                                    <p>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                        Copyright &copy;
+                                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+    </footer>
+
+    <!-- JS here -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

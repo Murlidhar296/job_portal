@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: raleway-bold;
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: raleway extra-bold;
+    src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+body{
+    font-family: raleway-bold;
+    min-height: 100vh;
+}
+
+.form__title{
+    text-transform: uppercase;
+    color: white;
+}
+
+.job-form{
+    background-color: white;
+    /* padding: 0 3rem 0 3rem; */
+    padding: .5rem;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* box-shadow: 10px 15px 15px rgba(100, 15, 65, .6); */
+    outline: 1px solid rgba(100, 15, 65, .6);
+    /* background: linear-gradient(to left ,#73B0E3,#8C80CA); */
+    /* background: url('../img/banner30.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    color: white; */
+    
+}
+
+.job-form .form-control{
+    border: 1px solid #000 !important;
+    opacity: .8;
+}
+
+.form-select{
+    border: 1px solid #000 !important;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.radios{
+    margin-top: 2.2rem;
+}
+
+input[type="radio"]{
+    margin-left: .2rem;
+    /* height: 18px;
+    width: 18px; */
+    accent-color: blue;
+}
+
+/* .form-label.one{
+    font-size: 1.3rem;
+} */
+
+.male{
+    font-size: 1rem;
+}
+
